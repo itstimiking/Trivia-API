@@ -6,7 +6,7 @@
 
 ## Setting up the Backend
 
-### (Install Dependencies){#dependencies}
+### Install Dependencies {#dependencies}
 
 1. **Python 3.7** - Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 - [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross-origin requests from our frontend server.
 
-### (Set up the Database){#setup}
+### Set up the Database 
 
-With Postgres running, create a `trivia` database:
+With{#setup} Postgres running, create a `trivia` database:
 
 ```bash
 createbd trivia
