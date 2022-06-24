@@ -40,7 +40,7 @@ Populate the database using the `trivia.psql` file provided. From the `backend` 
 psql trivia < trivia.psql
 ```
 
-### Run the Server {#run}
+### Run the Server (#run)
 
 From within the `./src` directory first ensure you are working using your created virtual environment.
 
@@ -53,7 +53,7 @@ flask run --reload
 The `--reload` flag will detect file changes and restart the server automatically.
 
 
-### API Reference {#api}
+### API Reference [#api]
 
 `GET '/categories'`
 
