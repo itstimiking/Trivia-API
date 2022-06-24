@@ -18,7 +18,7 @@ npm install
 
 > _tip_: `npm i`is shorthand for `npm install``
 
-## Required Tasks
+## Optional Changes
 
 ### Running Your Frontend in Dev Mode
 
@@ -35,3 +35,14 @@ npm start
 
 Currently, when a user plays the game they play up to five questions of the chosen category. If there are fewer than five questions in a category, the game will end when there are no more questions in that category.
 
+If you would like to paly with more questions you can increase the number of questions from 5 to any number you want by editing this line
+
+```
+const questionsPerPlay = 5;
+
+```
+in the file
+
+```
+src/components/QuizView.js
+```
