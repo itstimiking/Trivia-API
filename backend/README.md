@@ -1,8 +1,12 @@
 # Backend - Trivia API
+- [Install Dependencies](#dependencies)
+- [Setup the server](#setup)
+- [Run the server](#run)
+- [Api Reference](#api)
 
 ## Setting up the Backend
 
-### Install Dependencies
+### Install Dependencies {#dependencies}
 
 1. **Python 3.7** - Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
@@ -22,7 +26,7 @@ pip install -r requirements.txt
 
 - [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross-origin requests from our frontend server.
 
-### Set up the Database
+### Set up the Database {#setup}
 
 With Postgres running, create a `trivia` database:
 
@@ -36,7 +40,7 @@ Populate the database using the `trivia.psql` file provided. From the `backend` 
 psql trivia < trivia.psql
 ```
 
-### Run the Server
+### Run the Server {#run}
 
 From within the `./src` directory first ensure you are working using your created virtual environment.
 
@@ -49,7 +53,7 @@ flask run --reload
 The `--reload` flag will detect file changes and restart the server automatically.
 
 
-### API REFERENCE
+### API Reference {#api}
 
 `GET '/categories'`
 
@@ -57,7 +61,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
 - Request Arguments: None
 - Returns: An object with a single key, `categories`, that contains an object of `id: category_string` key: value pairs.
 
-```json
+```
 {
     'categories': { '1' : "Science",
     '2' : "Art",
@@ -95,3 +99,10 @@ The `--reload` flag will detect file changes and restart the server automaticall
     'currentCategory': 'History'
 }
 ```
+
+
+`GET '/categories/${id}/questions'`
+
+- Fetches questions for a cateogry specified by id request argument
+- Request Arguments: id - integer
+- Returns: An object with questions for the specified category, total questions, and current category string
