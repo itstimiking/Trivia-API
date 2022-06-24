@@ -89,14 +89,14 @@ The `--reload` flag will detect file changes and restart the server automaticall
             'category': 2
         },
     ],
-    'totalQuestions': 100,
+    'total_questions': 100,
     'categories': { '1' : "Science",
     '2' : "Art",
     '3' : "Geography",
     '4' : "History",
     '5' : "Entertainment",
     '6' : "Sports" },
-    'currentCategory': 'History'
+    'current_category': 'History'
 }
 ```
 
@@ -118,8 +118,8 @@ The `--reload` flag will detect file changes and restart the server automaticall
             'category': 4
         },
     ],
-    'totalQuestions': 100,
-    'currentCategory': 'History'
+    'total_questions': 100,
+    'current_category': 'History'
 }
 ```
 
@@ -197,7 +197,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
             'category': 5
         },
     ],
-    'totalQuestions': 100,
-    'currentCategory': 'Entertainment'
+    'total_questions': 100,
+    'current_category': 'Entertainment'
 }
 ```
