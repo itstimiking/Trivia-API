@@ -26,3 +26,12 @@ The [backend](./backend/README.md) directory contains all the backend flask scri
 The [frontend](./frontend/README.md) directory contains a complete React frontend to consume the data from the Flask server. Get started. 
 
 > View the [Frontend README](./frontend/README.md) for more details.
+
+### Deployment N/A
+
+### Authors
+- [Timi Ambaye](https://timiambaye.com)
+- [Sarah Maris](https://github.com/sarah-udacity)
+
+### Acknowledgments
+- [Coach Caryn](https://www.linkedin.com/in/carynmccarthy/)
