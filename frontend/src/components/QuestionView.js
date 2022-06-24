@@ -157,7 +157,7 @@ class QuestionView extends Component {
           <Search submitSearch={this.submitSearch} />
         </div>
         <div className='questions-list'>
-          <h2>Questions</h2>
+          <h2>{this.state.currentCategory} Questions </h2>
           {this.state.questions.map((q, ind) => (
             <Question
               key={q.id}

@@ -48,6 +48,11 @@ class QuizView extends Component {
       previousQuestions.push(this.state.currentQuestion.id);
     }
 
+    console.log(JSON.stringify({
+      previous_questions: previousQuestions,
+      quiz_category: this.state.quizCategory,
+    }))
+
     $.ajax({
       url: '/quizzes', //TODO: update request URL
       type: 'POST',
@@ -62,6 +67,7 @@ class QuizView extends Component {
       },
       crossDomain: true,
       success: (result) => {
+        console.log(result)
         this.setState({
           showAnswer: false,
           previousQuestions: previousQuestions,
@@ -144,6 +150,9 @@ class QuizView extends Component {
       // eslint-disable-next-line
       .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '')
       .toLowerCase();
+    if(!this.state.currentQuestion.answer){
+      return false;
+    }
     const answerArray = this.state.currentQuestion.answer
       .toLowerCase()
       .split(' ');
