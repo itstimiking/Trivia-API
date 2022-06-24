@@ -1,6 +1,7 @@
-# API Development and Documentation Final Project
 
-## Trivia App
+# Knowledge Trivia App
+
+## Introduction
 
 Host a trivia session for your team, created a trivia game and play the whith your team.
 
@@ -16,12 +17,12 @@ Completing this trivia app helped me to understand how to structure, plan, imple
 
 ### Backend
 
-The [backend](./backend/README.md) directory contains all the backend flask scripts required to run this app. You can view the readme for details on how to install.
+The [backend](./backend/README.md) directory contains all the backend flask scripts required to run this app. You can view the readme for details on how to install and get started.
 
 > View the [Backend README](./backend/README.md) for more details.
 
 ### Frontend
 
-The [frontend](./frontend/README.md) directory contains a complete React frontend to consume the data from the Flask server. 
+The [frontend](./frontend/README.md) directory contains a complete React frontend to consume the data from the Flask server. Get started. 
 
 > View the [Frontend README](./frontend/README.md) for more details.
