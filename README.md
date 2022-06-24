@@ -2,9 +2,9 @@
 
 ## Trivia App
 
-Udacity is invested in creating bonding experiences for its employees and students. A bunch of team members got the idea to hold trivia on a regular basis and created a webpage to manage the trivia app and play the game, but their API experience is limited and still needs to be built out.
+Host a trivia session for your team, created a trivia game and play the whith your team.
 
-With this app you can start holding trivia and see who's the most knowledgeable of in your team.
+With this app you can start holding trivia and see who's the most knowledgeable in your team.
 
 1. Display questions - All questions are displayed according to their category, if no category is choosen the all questions from every category will be displayed.
 2. Delete questions - You can delete questions you dont want by clicking on the trash can icon bellow the question.
